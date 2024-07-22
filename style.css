@@ -1,0 +1,108 @@
+@import url('https://use.fontawesome.com/releases/v6.6.0/css/all.css');
+
+.round-img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+body {
+  background-color: #000;
+  color: #FFF;
+  background: linear-gradient(135deg, #000 0%, #00FF00 50%, #ADD8E6 100%);
+  background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
+}
+
+h1, h2, h3 {
+  color: #00FF00;
+  font-family: 'RickMorty', cursive;
+}
+
+p {
+  color: #ADD8E6;
+}
+
+a {
+  color: #00FF00;
+  font-family: 'RickMorty', cursive;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+  color: #ADD8E6;
+  text-shadow: 0 0 10px #00FF00;
+}
+
+.card-white {
+  background-color: #000;
+  color: #FFF;
+  padding: 16px 32px 32px 32px;
+  border: 2px solid #FFF;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  width: 900px;
+}
+
+.btn-blue{
+  display: inline-block;
+  padding: 10px 20px;
+  color: #00FF00; /* Neon green text */
+  background-color: #000; /* Black background */
+  border: 2px solid #FFF; /* White border */
+  border-radius: 8px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  font-size: 25px;
+  margin: 0 8px;
+}
+
+@font-face {
+  font-family: 'RickMorty';
+  src: url('https://example.com/path-to-your-font/rick-morty.ttf') format('truetype');
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+.card-white {
+  width: auto;
+}
+
+.round-img {
+  width:200px;
+  height: 200px;
+}
+}
